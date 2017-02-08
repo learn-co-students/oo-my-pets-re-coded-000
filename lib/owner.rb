@@ -3,7 +3,6 @@ class Owner
 attr_accessor :pets, :name
 attr_reader :species
 OWNERS=[]
-owner_count=0
   def initialize (species)
   @species=species
   @pets = {fishes: [], cats: [], dogs: []}
