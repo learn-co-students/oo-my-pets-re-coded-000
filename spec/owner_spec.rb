@@ -1,3 +1,4 @@
+require 'pry'
 require_relative 'spec_helper.rb'
 
 describe Owner do
@@ -32,6 +33,7 @@ describe Owner do
 
     describe "#species" do  
       it "initializes with a species" do
+        # binding.pry
         expect(owner.species).to eq("human")
       end
 
